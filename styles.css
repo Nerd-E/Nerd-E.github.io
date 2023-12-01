@@ -213,12 +213,7 @@
 #terminal {
     padding-bottom: 36px;
 }
-.collection {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: 10px;
-}
+
 .noise {
     position: fixed;
     top: 0;
