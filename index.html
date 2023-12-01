@@ -7,7 +7,18 @@
     </head>
     <body>
         <div class="tv">
-            <div id="terminal"></div>
+            <div id="terminal">
+                <script>
+                    $('body').terminal({
+                        hello: function(what) {
+                            this.echo('Hello, ' + what +
+                                      '. Wellcome to this terminal.');
+                        }
+                    }, {
+                        greetings: 'My First Web Terminal'
+                    });
+                </script>
+            </div>
             <div class="flicker"></div>
             <div class="scanlines"></div>
             <div class="noise"></div>
