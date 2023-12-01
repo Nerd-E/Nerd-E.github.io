@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="https://cdn.jsdelivr.net/npm/jquery"></script>
-        <script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/jquery.terminal.min.js"></script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css"/>
-        </head>
+        <script src="term.js"></script>
+        <link rel="stylesheet" href="styles.css"/>
+
+    </head>
     <body>
-        <script>
-            $('body').terminal({
-                hello: function(what) {
-                    this.echo('Hello, ' + what +
-                              '. Wellcome to this terminal.');
-                }
-            }, {
-                greetings: 'My First Web Terminal'
-            });
-            </script>
+        <div class="tv">
+            <div id="terminal"></div>
+            <div class="collection external terminal">
+            See Also: <a href="https://codepen.io/jcubic/pen/JjpzzOr" target="top">Red version</a>, or <a href="https://codepen.io/collection/AeGGxz" target="top">Vintage Screen Effects</a>, <a href="https://codepen.io/collection/Mgrkmw"  target="top">Terminal Things</a>, and <a href="https://codepen.io/collection/LPjoaW" target="top">other jQuery Terminal demos</a>.
+            </div>
+            <div class="flicker"></div>
+            <div class="scanlines"></div>
+            <div class="noise"></div>
+        </div>
     </body>
 </html>
