@@ -50,7 +50,7 @@ b {
 #command {
   cursor: text;
   height: 50px;
-  color: #73ABAD;
+  color: #ffffff;
 }
 #liner {
   line-height: 1.3em;
@@ -61,7 +61,7 @@ b {
 }
 #liner::before {
   color: #519975;
-  content: "visitor@fkcodes.com:~$";
+  content: "C.Wallace@iotadatabase.xyz>";
 }
 #liner.password::before {
   content: "Password:";
